@@ -1,0 +1,167 @@
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+/* ------------------------------------- */
+.sidebar{
+  width: 300px;
+  height: 100%;
+  background-color: #253141;
+}
+
+.sidetop{
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username{
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.username a{
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.chatcreate{
+  font-size: 10px;
+  padding: 14px 14px;
+  border: 1px solid lightblue;
+}
+
+.chatcreate a{
+  color: deepskyblue;
+  text-decoration: none;
+}
+/* ---------------------- */
+.sidebottom{
+  height: calc(100% - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.chatroom{
+  padding: 20px 0 40px;
+}
+
+.chatroom a{
+  color: white;
+  text-decoration: none;
+}
+
+/* ------------------------------------ */
+.mainchat{
+  width: calc(100vw - 300px);
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.maintop{
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.roomname{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.chatend{
+  margin-top: 40px;
+}
+
+.chatend a{
+  text-decoration: none;
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
+}
+/* -------------------- */
+.mainmiddle{
+  height: calc(100% - 100px - 90px);
+  background-color: #fafafa;
+  padding: 0 40px;
+  padding-top: 46px;
+  overflow: scroll;
+}
+
+.messages{
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+
+.messagetop{
+  display: flex;
+}
+
+.messagename{
+  font-size: 16px;
+  color: #434a54;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.messagedate{
+  font-size: 12px;
+  color: #999;
+}
+
+.messagecomment{
+  font-size: 14px;
+  color: #434a54;
+}
+/* ---------------------------- */
+
+.mainbottom{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.formleft{
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.textform{
+  height: 50px;
+  border: none;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.sendbtn{
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  padding: 0 20px;
+  background-color: #38aef0;
+  border-style: none;
+}
